@@ -82,4 +82,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 INSTALLED_APPS = INSTALLED_APPS + ('spa_render_app',)
 import os.path
-TEMPLATE_DIRS = TEMPLATE_DIRS + (os.path.join(os.path.dirname(__file__), 'templates').replace('\','/'),)
+#TEMPLATE_DIRS = TEMPLATE_DIRS + (os.path.join(os.path.dirname(__file__), 'templates').replace('\\','/'),)
